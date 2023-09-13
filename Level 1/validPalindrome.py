@@ -18,10 +18,6 @@ def isPalindrome(s):
         right -=1
     return True
 
-def main():
-    #s = "A man, a plan, a canal: Panama"
-    s = "race a car"
-    print(isPalindrome(s))
-
-if __name__ == "__main__":
-    main()
+s = "A man, a plan, a canal: Panama"
+s2 = "race a car"
+print(isPalindrome(s))

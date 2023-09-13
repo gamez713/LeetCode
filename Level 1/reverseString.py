@@ -9,11 +9,8 @@ def reverse(s):
 
     return rev_string
     
-def main():
-    string = "Hello World"
 
-    reverseString = reverse(string)
-    print(reverseString)
+string = "Hello World"
 
-if __name__ == "__main__":
-    main()
+reverseString = reverse(string)
+print(reverseString)

@@ -28,15 +28,11 @@ def O1_solution(s):
 
     return(s)
 
-def main():
-    s = ["h","e","l","l","o"]
-    s2 = ["H","a","n","n","a","h"]
+s = ["h","e","l","l","o"]
+s2 = ["H","a","n","n","a","h"]
 
-    rev = reverseString(s)
-    print(rev)
+rev = reverseString(s)
+print(rev)
 
-    revO1 = O1_solution(s2)
-    print(revO1)
-
-if __name__ == "__main__":
-    main()
+revO1 = O1_solution(s2)
+print(revO1)

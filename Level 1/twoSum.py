@@ -17,12 +17,8 @@ def twoSum(nums, target):
         # Update hashmap if no solution
         indices[num] = i
     
-def main():
-    nums = [2, 7, 11, 15]
-    target = 9
+nums = [2, 7, 11, 15]
+target = 9
 
-    result = twoSum(nums, target)
-    print(result)
-
-if __name__ == "__main__":
-    main()
+result = twoSum(nums, target)
+print(result)
