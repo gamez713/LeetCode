@@ -1,4 +1,5 @@
-# Return indices of the two numbers that add up to target.
+# Problem: https://leetcode.com/problems/two-sum/description/
+# Description: Return indices of the two numbers that add up to target.
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)

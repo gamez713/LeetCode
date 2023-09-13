@@ -1,5 +1,5 @@
-# Convert all uppercase letters into lowercase, removing all non-alphanumeric characters
-# If it reads the same forward and backward return True, else False 
+# Problem: https://leetcode.com/problems/valid-palindrome/description/
+# Description: Convert string to lowercase & remove non-alphanumeric chars. Return True if Palindrome, else False.
 
 # Time Complexity: O(n)
 # Space Complexity: O(n), can improve to O(1) by directly removing all non-alphanumeric characters from s

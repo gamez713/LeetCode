@@ -1,3 +1,5 @@
+# Reverse regular string practice
+
 def reverse(s):
     rev_string = ""
     n = len(s)

@@ -1,4 +1,5 @@
-# Reverses a string (input string is given as an array of characters)
+# Problem: https://leetcode.com/problems/reverse-string/description/
+# Description: Reverse a string (input string is given as an array of characters)
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
