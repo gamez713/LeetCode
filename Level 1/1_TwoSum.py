@@ -4,7 +4,7 @@
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 def twoSum(nums, target):
-    # Hashmap
+    # Create Hashmap
     indices = {}
 
     for i, num in enumerate(nums):
@@ -16,7 +16,7 @@ def twoSum(nums, target):
         
         # Update hashmap if no solution
         indices[num] = i
-    
+
 nums = [2, 7, 11, 15]
 target = 9
 

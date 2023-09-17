@@ -9,7 +9,6 @@ def reverse(s):
 
     return rev_string
     
-
 string = "Hello World"
 
 reverseString = reverse(string)

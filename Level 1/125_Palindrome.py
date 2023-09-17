@@ -2,7 +2,7 @@
 # Description: Convert string to lowercase & remove non-alphanumeric chars. Return True if Palindrome, else False.
 
 # Time Complexity: O(n)
-# Space Complexity: O(n), can improve to O(1) by directly removing all non-alphanumeric characters from s
+# Space Complexity: O(n), can be O(1): remove all non-alphanum chars from s while comparing left/right
 def isPalindrome(s):
     # Clean string first
     s = s.lower()
